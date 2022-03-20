@@ -9,10 +9,10 @@
 class Figure {
 public: int x;int y;int z;
 
-    virtual double square(double r) = 0;
+    virtual double square() = 0;
 
 
-    virtual bool check(double x,double y,double r) = 0;
+    virtual bool check(double x,double y) = 0;
 
 };
 
